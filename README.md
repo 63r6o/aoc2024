@@ -3,12 +3,13 @@
 The structure of the repository:
 
 ```
+src/
 ├── dayxx.ts        # solution for day xx
-├── read-input.ts   # a helper function to read the inputs
+└── read-input.ts   # a helper function to read the inputs
 ```
 
 To run day **_xx_**:
 
 ```
-bun dayxx path/to/input/file
+bun src/dayxx path/to/input/file
 ```
